@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('https://arellano.edu.ph/sites/default/files/inline-images/au-plaridel-sm.jpg');
+    background-blend-mode: multiply,multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91.5vh;
+}
+
+.attendance-container {
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.attendance-container > div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.attendance-container > div:last-child {
+    width: 64%;
+    margin-left: auto;
+}
+.navv{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navv-head{
+    font-size: 20px;
+    font-weight: 600;
+}
+.navv a{
+    color: black;
+}
+.navv a:hover{
+    color: #757575;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.attendance-container{
+    background-color: transparent;
+}
+.qr-container, .qr-detected-container, .attendance-list{
+    background-color: #fdfdfde8;
+}
+.scanner-con{
+    border-bottom: 10px transparent solid;
+}
