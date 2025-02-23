@@ -1,0 +1,52 @@
+.container-fluid {
+    min-height: 90vh;
+    max-height: 100vh;
+ }
+ 
+ .bg-color-green {
+    background-color: rgb(76 175 80);
+    color: rgb(255 255 255);
+    text-align: center;
+ }
+ .bg-color-gray {
+    background-color: rgb(231, 231, 231);
+    min-height: 84vh;
+    overflow-y: scroll;
+ }
+ 
+ .message {
+    padding: 3px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 70%;
+ }
+ 
+ .message-header {
+    font-size: small;
+    text-align: left;
+ }
+ 
+ .my-message {
+    margin-left: auto;
+    background-color: rgb(175 255 176);
+ }
+ .others-message {
+    background-color: rgb(250 235 215);
+    margin-right: auto;
+ }
+ .send-message {
+    min-height: 5vh;
+ }
+ 
+ .max-height-90 {
+    max-height: 90vh;
+    display: flex;
+ }
+ 
+ .d-flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+ }
